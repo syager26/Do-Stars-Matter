@@ -29,27 +29,6 @@ print(all_data.head())
 rs = 32
 
 # specify data for each model
-knn_data = ['Expenses','talent_score', 'class_points','passing_usage','receiving_usage',
-             'rushing_usage', 'conference_num', 'avg_rating_All Positions', 'strength_of_schedule',
-                          'total_rating_Quarterback', 'total_rating_Receiver',
-                          'total_rating_Offensive Line', 'total_rating_Running Back',
-                          'total_rating_Linebacker', 'total_rating_Defensive Line',
-                          'total_rating_Defensive Back']
-
-mlp_data = ['Expenses','talent_score', 'class_points','passing_usage','receiving_usage',
-             'rushing_usage', 'conference_num', 'avg_rating_All Positions', 'strength_of_schedule',
-                          'total_rating_Quarterback', 'total_rating_Receiver',
-                          'total_rating_Offensive Line', 'total_rating_Running Back',
-                          'total_rating_Linebacker', 'total_rating_Defensive Line',
-                          'total_rating_Defensive Back']
-
-rf_data = ['Expenses','talent_score', 'class_points','passing_usage','receiving_usage',
-             'rushing_usage', 'conference_num', 'avg_rating_All Positions', 'strength_of_schedule',
-                          'total_rating_Quarterback', 'total_rating_Receiver',
-                          'total_rating_Offensive Line', 'total_rating_Running Back',
-                          'total_rating_Linebacker', 'total_rating_Defensive Line',
-                          'total_rating_Defensive Back']
-
 selected_data = all_data[['year','win_pct','Expenses','talent_score', 'class_points','passing_usage','receiving_usage',
              'rushing_usage', 'conference_num', 'avg_rating_All Positions', 'strength_of_schedule',
                           'total_rating_Quarterback', 'total_rating_Receiver',
